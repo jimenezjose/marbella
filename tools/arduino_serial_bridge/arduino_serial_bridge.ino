@@ -30,7 +30,11 @@
 //  5: 19200   | 6: 38400   | 7: 57600   | 8: 115200
 //
 //  HC-05 UART CONFIG (AT+UART=<Baud>,<Stop>,<Parity>):
-//  Example: AT+UART=9600,0,0
+//  Example: AT+UART=115200,0,0
+//
+// -----------------------------------------------------------------------------
+//  MacOS:
+//  To reset the bluetooth: $ sudo pkill bluetoothd
 // =============================================================================
 
 #include <SoftwareSerial.h>

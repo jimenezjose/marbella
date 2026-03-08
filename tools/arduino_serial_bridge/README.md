@@ -12,7 +12,9 @@ AT Commands:
 ```
 AT+ORGL (Reset to default)
 
-AT+ROLE=0 (Set as Slave)
+AT+ROLE=0 (Set as Peripheral)
+
+AT+CMODE=1 (Connect to anyone)
 
 AT+POLAR=1,0 (This ensures the STATE pin drops LOW when the connection is made, triggering the reset).
 
