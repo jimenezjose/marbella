@@ -1,4 +1,4 @@
-PORT ?= /dev/cu.HC-05  #/dev/cu.usbmodem11202 #/dev/ttyACM0
+PORT ?= /dev/cu.usbmodem1101 #/dev/cu.HC-05  #/dev/cu.usbmodem11202 #/dev/ttyACM0
 MAKEFILE_DIR := $(realpath $(dir $(lastword $(MAKEFILE_LIST))))
 
 OS := $(shell uname)
